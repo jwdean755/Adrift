@@ -1,0 +1,17 @@
+<h1>Listing losts</h1>
+
+<table>
+  <tr>
+    <th>catagory</th>
+    <th>description</th>
+    <th>email</th>
+  </tr>
+
+  <% @losts.each do |lost| %>
+    <tr>
+      <td><%= lost.catagory %></td>
+      <td><%= lost.description %></td>
+      <td><%= lost.email %></td>
+    </tr>
+  <% end %>
+</table>

@@ -1,0 +1,22 @@
+<h1>LOST</h1>
+
+<%= form_for :lost, url: losts_path do |f| %>
+  <p>
+    <%= f.label :cagory %><br>
+    <%= f.text_field :catagory %>
+  </p>
+
+  <p>
+    <%= f.label :description %><br>
+    <%= f.text_area :description %>
+  </p>
+
+  <p>
+    <%= f.label :email %><br>
+    <%= f.text_field :email %>
+  </p>
+
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>

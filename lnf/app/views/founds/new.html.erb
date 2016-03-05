@@ -1,0 +1,22 @@
+<h1>FOUND</h1>
+
+<%= form_for :found, url: founds_path do |f| %>
+  <p>
+    <%= f.label :catagory %><br>
+    <%= f.text_field :catagory %>
+  </p>
+
+  <p>
+    <%= f.label :location %><br>
+    <%= f.text_field :location %>
+  </p>
+
+  <p>
+    <%= f.label :email %><br>
+    <%= f.text_field :email %>
+  </p>
+
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>

@@ -1,0 +1,17 @@
+<h1>Listing founds</h1>
+
+<table>
+  <tr>
+    <th>catagory</th>
+    <th>location</th>
+    <th>email</th>
+  </tr>
+
+  <% @founds.each do |found| %>
+    <tr>
+      <td><%= found.catagory %></td>
+      <td><%= found.location %></td>
+      <td><%= found.email %></td>
+    </tr>
+  <% end %>
+</table>
