@@ -9532,3 +9532,555 @@ Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-05 12:59:42 -05
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-05 12:59:42 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-05 13:21:34 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 21ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2016-03-05 13:21:34 -0500
+
+
+Started GET "/assets/found.css?body=1" for 127.0.0.1 at 2016-03-05 13:21:34 -0500
+
+
+Started GET "/assets/lost.css?body=1" for 127.0.0.1 at 2016-03-05 13:21:34 -0500
+
+
+Started GET "/assets/losts.css?body=1" for 127.0.0.1 at 2016-03-05 13:21:34 -0500
+
+
+Started GET "/assets/founds.css?body=1" for 127.0.0.1 at 2016-03-05 13:21:34 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2016-03-05 13:21:34 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-05 13:21:34 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-05 13:21:34 -0500
+
+
+Started GET "/assets/found.js?body=1" for 127.0.0.1 at 2016-03-05 13:21:34 -0500
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2016-03-05 13:21:34 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-05 13:21:34 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-05 13:21:34 -0500
+
+
+Started GET "/assets/founds.js?body=1" for 127.0.0.1 at 2016-03-05 13:21:34 -0500
+
+
+Started GET "/assets/lost.js?body=1" for 127.0.0.1 at 2016-03-05 13:21:34 -0500
+
+
+Started GET "/assets/losts.js?body=1" for 127.0.0.1 at 2016-03-05 13:21:34 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-05 13:21:34 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-05 13:21:34 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-05 13:21:35 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/found.css?body=1" for 127.0.0.1 at 2016-03-05 13:21:35 -0500
+
+
+Started GET "/assets/founds.css?body=1" for 127.0.0.1 at 2016-03-05 13:21:35 -0500
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2016-03-05 13:21:35 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2016-03-05 13:21:35 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-05 13:21:35 -0500
+
+
+Started GET "/assets/lost.css?body=1" for 127.0.0.1 at 2016-03-05 13:21:35 -0500
+
+
+Started GET "/assets/losts.css?body=1" for 127.0.0.1 at 2016-03-05 13:21:35 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-05 13:21:35 -0500
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2016-03-05 13:21:35 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-05 13:21:35 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-05 13:21:35 -0500
+
+
+Started GET "/assets/lost.js?body=1" for 127.0.0.1 at 2016-03-05 13:21:35 -0500
+
+
+Started GET "/assets/founds.js?body=1" for 127.0.0.1 at 2016-03-05 13:21:35 -0500
+
+
+Started GET "/assets/losts.js?body=1" for 127.0.0.1 at 2016-03-05 13:21:35 -0500
+
+
+Started GET "/assets/found.js?body=1" for 127.0.0.1 at 2016-03-05 13:21:35 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-05 13:21:35 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-05 13:21:35 -0500
+
+
+Started GET "/founds/new" for 127.0.0.1 at 2016-03-05 13:21:48 -0500
+Processing by FoundsController#new as HTML
+  Rendered founds/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/founds" for 127.0.0.1 at 2016-03-05 13:22:13 -0500
+Processing by FoundsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EzBWvsMMSeCeXqwVSLGbZb5IPJIRzTJKgruQxDoyNL4=", "found"=>{"catagory"=>"book", "location"=>"nimitz", "email"=>"middy8@gmail.com"}, "commit"=>"Save Found"}
+Redirected to http://localhost:3000/founds/new
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/founds/new" for 127.0.0.1 at 2016-03-05 13:22:13 -0500
+Processing by FoundsController#new as HTML
+  Rendered founds/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2016-03-05 13:22:13 -0500
+
+
+Started GET "/assets/founds.css?body=1" for 127.0.0.1 at 2016-03-05 13:22:13 -0500
+
+
+Started GET "/assets/found.css?body=1" for 127.0.0.1 at 2016-03-05 13:22:13 -0500
+
+
+Started GET "/assets/lost.css?body=1" for 127.0.0.1 at 2016-03-05 13:22:13 -0500
+
+
+Started GET "/assets/losts.css?body=1" for 127.0.0.1 at 2016-03-05 13:22:13 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-05 13:22:13 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-05 13:22:13 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2016-03-05 13:22:13 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-05 13:22:13 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-05 13:22:13 -0500
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2016-03-05 13:22:13 -0500
+
+
+Started GET "/assets/found.js?body=1" for 127.0.0.1 at 2016-03-05 13:22:13 -0500
+
+
+Started GET "/assets/founds.js?body=1" for 127.0.0.1 at 2016-03-05 13:22:13 -0500
+
+
+Started GET "/assets/lost.js?body=1" for 127.0.0.1 at 2016-03-05 13:22:13 -0500
+
+
+Started GET "/assets/losts.js?body=1" for 127.0.0.1 at 2016-03-05 13:22:13 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-05 13:22:13 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-05 13:22:13 -0500
+
+
+Started POST "/founds" for 127.0.0.1 at 2016-03-05 13:22:26 -0500
+Processing by FoundsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EzBWvsMMSeCeXqwVSLGbZb5IPJIRzTJKgruQxDoyNL4=", "found"=>{"catagory"=>"book", "location"=>"nimitz", "email"=>"middy8@usna.edu"}, "commit"=>"Save Found"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "founds" ("catagory", "created_at", "email", "location", "updated_at") VALUES (?, ?, ?, ?, ?)  [["catagory", "book"], ["created_at", "2016-03-05 18:22:26.017971"], ["email", "middy8@usna.edu"], ["location", "nimitz"], ["updated_at", "2016-03-05 18:22:26.017971"]]
+  [1m[36m (19.3ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/founds/7
+Completed 302 Found in 24ms (ActiveRecord: 19.9ms)
+
+
+Started GET "/founds/7" for 127.0.0.1 at 2016-03-05 13:22:26 -0500
+Processing by FoundsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mFound Load (0.1ms)[0m  SELECT  "founds".* FROM "founds"  WHERE "founds"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered founds/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2016-03-05 13:22:26 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2016-03-05 13:22:26 -0500
+
+
+Started GET "/assets/found.css?body=1" for 127.0.0.1 at 2016-03-05 13:22:26 -0500
+
+
+Started GET "/assets/lost.css?body=1" for 127.0.0.1 at 2016-03-05 13:22:26 -0500
+
+
+Started GET "/assets/losts.css?body=1" for 127.0.0.1 at 2016-03-05 13:22:26 -0500
+
+
+Started GET "/assets/founds.css?body=1" for 127.0.0.1 at 2016-03-05 13:22:26 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-05 13:22:26 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-05 13:22:26 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-05 13:22:26 -0500
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2016-03-05 13:22:26 -0500
+
+
+Started GET "/assets/found.js?body=1" for 127.0.0.1 at 2016-03-05 13:22:26 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-05 13:22:26 -0500
+
+
+Started GET "/assets/founds.js?body=1" for 127.0.0.1 at 2016-03-05 13:22:26 -0500
+
+
+Started GET "/assets/lost.js?body=1" for 127.0.0.1 at 2016-03-05 13:22:26 -0500
+
+
+Started GET "/assets/losts.js?body=1" for 127.0.0.1 at 2016-03-05 13:22:26 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-05 13:22:26 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-05 13:22:26 -0500
+
+
+Started GET "/founds" for 127.0.0.1 at 2016-03-05 13:22:30 -0500
+Processing by FoundsController#index as HTML
+  [1m[36mFound Load (0.3ms)[0m  [1mSELECT "founds".* FROM "founds"[0m
+  Rendered founds/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 16ms (Views: 14.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-05 13:22:39 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2016-03-05 13:22:39 -0500
+
+
+Started GET "/assets/found.css?body=1" for 127.0.0.1 at 2016-03-05 13:22:39 -0500
+
+
+Started GET "/assets/losts.css?body=1" for 127.0.0.1 at 2016-03-05 13:22:39 -0500
+
+
+Started GET "/assets/lost.css?body=1" for 127.0.0.1 at 2016-03-05 13:22:39 -0500
+
+
+Started GET "/assets/founds.css?body=1" for 127.0.0.1 at 2016-03-05 13:22:39 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-05 13:22:39 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2016-03-05 13:22:39 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-05 13:22:39 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-05 13:22:39 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-05 13:22:39 -0500
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2016-03-05 13:22:39 -0500
+
+
+Started GET "/assets/found.js?body=1" for 127.0.0.1 at 2016-03-05 13:22:39 -0500
+
+
+Started GET "/assets/founds.js?body=1" for 127.0.0.1 at 2016-03-05 13:22:39 -0500
+
+
+Started GET "/assets/lost.js?body=1" for 127.0.0.1 at 2016-03-05 13:22:39 -0500
+
+
+Started GET "/assets/losts.js?body=1" for 127.0.0.1 at 2016-03-05 13:22:39 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-05 13:22:39 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-05 13:22:39 -0500
+
+
+Started GET "/losts/new" for 127.0.0.1 at 2016-03-05 13:22:40 -0500
+Processing by LostsController#new as HTML
+  Rendered losts/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/losts/" for 127.0.0.1 at 2016-03-05 13:22:45 -0500
+Processing by LostsController#index as HTML
+  [1m[35mLost Load (0.4ms)[0m  SELECT "losts".* FROM "losts"
+  Rendered losts/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2016-03-05 13:22:45 -0500
+
+
+Started GET "/assets/found.css?body=1" for 127.0.0.1 at 2016-03-05 13:22:45 -0500
+
+
+Started GET "/assets/lost.css?body=1" for 127.0.0.1 at 2016-03-05 13:22:45 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2016-03-05 13:22:45 -0500
+
+
+Started GET "/assets/losts.css?body=1" for 127.0.0.1 at 2016-03-05 13:22:45 -0500
+
+
+Started GET "/assets/founds.css?body=1" for 127.0.0.1 at 2016-03-05 13:22:45 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-05 13:22:45 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-05 13:22:45 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-05 13:22:45 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-05 13:22:45 -0500
+
+
+Started GET "/assets/found.js?body=1" for 127.0.0.1 at 2016-03-05 13:22:45 -0500
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2016-03-05 13:22:45 -0500
+
+
+Started GET "/assets/founds.js?body=1" for 127.0.0.1 at 2016-03-05 13:22:45 -0500
+
+
+Started GET "/assets/lost.js?body=1" for 127.0.0.1 at 2016-03-05 13:22:45 -0500
+
+
+Started GET "/assets/losts.js?body=1" for 127.0.0.1 at 2016-03-05 13:22:45 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-05 13:22:45 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-05 13:22:45 -0500
+
+
+Started GET "/losts/new" for 127.0.0.1 at 2016-03-05 13:37:45 -0500
+Processing by LostsController#new as HTML
+  Rendered losts/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2016-03-05 13:37:46 -0500
+
+
+Started GET "/assets/found.css?body=1" for 127.0.0.1 at 2016-03-05 13:37:46 -0500
+
+
+Started GET "/assets/founds.css?body=1" for 127.0.0.1 at 2016-03-05 13:37:46 -0500
+
+
+Started GET "/assets/lost.css?body=1" for 127.0.0.1 at 2016-03-05 13:37:46 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2016-03-05 13:37:46 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-05 13:37:46 -0500
+
+
+Started GET "/assets/losts.css?body=1" for 127.0.0.1 at 2016-03-05 13:37:46 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-05 13:37:46 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-05 13:37:46 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-05 13:37:46 -0500
+
+
+Started GET "/assets/found.js?body=1" for 127.0.0.1 at 2016-03-05 13:37:46 -0500
+
+
+Started GET "/assets/founds.js?body=1" for 127.0.0.1 at 2016-03-05 13:37:46 -0500
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2016-03-05 13:37:46 -0500
+
+
+Started GET "/assets/lost.js?body=1" for 127.0.0.1 at 2016-03-05 13:37:46 -0500
+
+
+Started GET "/assets/losts.js?body=1" for 127.0.0.1 at 2016-03-05 13:37:46 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-05 13:37:46 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-05 13:37:46 -0500
+
+
+Started GET "/founds/new" for 127.0.0.1 at 2016-03-05 13:46:19 -0500
+Processing by FoundsController#new as HTML
+  Rendered founds/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2016-03-05 13:46:19 -0500
+
+
+Started GET "/assets/found.css?body=1" for 127.0.0.1 at 2016-03-05 13:46:19 -0500
+
+
+Started GET "/assets/lost.css?body=1" for 127.0.0.1 at 2016-03-05 13:46:19 -0500
+
+
+Started GET "/assets/founds.css?body=1" for 127.0.0.1 at 2016-03-05 13:46:19 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-05 13:46:19 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2016-03-05 13:46:19 -0500
+
+
+Started GET "/assets/losts.css?body=1" for 127.0.0.1 at 2016-03-05 13:46:19 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-05 13:46:19 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-05 13:46:19 -0500
+
+
+Started GET "/assets/founds.js?body=1" for 127.0.0.1 at 2016-03-05 13:46:19 -0500
+
+
+Started GET "/assets/found.js?body=1" for 127.0.0.1 at 2016-03-05 13:46:19 -0500
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2016-03-05 13:46:19 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-05 13:46:19 -0500
+
+
+Started GET "/assets/lost.js?body=1" for 127.0.0.1 at 2016-03-05 13:46:19 -0500
+
+
+Started GET "/assets/losts.js?body=1" for 127.0.0.1 at 2016-03-05 13:46:19 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-05 13:46:19 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-05 13:46:19 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-05 13:46:23 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2016-03-05 13:46:23 -0500
+
+
+Started GET "/assets/found.css?body=1" for 127.0.0.1 at 2016-03-05 13:46:23 -0500
+
+
+Started GET "/assets/losts.css?body=1" for 127.0.0.1 at 2016-03-05 13:46:23 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2016-03-05 13:46:23 -0500
+
+
+Started GET "/assets/lost.css?body=1" for 127.0.0.1 at 2016-03-05 13:46:23 -0500
+
+
+Started GET "/assets/founds.css?body=1" for 127.0.0.1 at 2016-03-05 13:46:23 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-05 13:46:23 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-05 13:46:23 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-05 13:46:23 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-05 13:46:23 -0500
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2016-03-05 13:46:23 -0500
+
+
+Started GET "/assets/found.js?body=1" for 127.0.0.1 at 2016-03-05 13:46:23 -0500
+
+
+Started GET "/assets/founds.js?body=1" for 127.0.0.1 at 2016-03-05 13:46:23 -0500
+
+
+Started GET "/assets/lost.js?body=1" for 127.0.0.1 at 2016-03-05 13:46:23 -0500
+
+
+Started GET "/assets/losts.js?body=1" for 127.0.0.1 at 2016-03-05 13:46:23 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-03-05 13:46:23 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-05 13:46:23 -0500

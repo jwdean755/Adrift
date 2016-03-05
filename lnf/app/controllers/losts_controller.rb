@@ -13,6 +13,9 @@ class LostsController < ApplicationController
    def create
       @lost = Lost.new(params.require(:lost).permit(:catagory, :location, :description, :email))
 
+      #expirimental
+      #@founds = self.get_matching(params);
+
       if params[:lost][:email].include? "@usna.edu"
          @lost.save
          redirect_to @lost
