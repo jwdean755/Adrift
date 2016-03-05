@@ -12,9 +12,8 @@ class LostsController < ApplicationController
 
    def create
       @lost = Lost.new(params.require(:lost).permit(:catagory, :location, :description, :email))
+      @founds = Found.where("catagory = ? AND location = ?", params[:lost][:catagory], params[:lost][:location])
 
-      #expirimental
-      #@founds = self.get_matching(params);
 
       if params[:lost][:email].include? "@usna.edu"
          @lost.save
