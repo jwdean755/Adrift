@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160305142830) do
+ActiveRecord::Schema.define(version: 20160305175101) do
 
   create_table "articles", force: true do |t|
     t.string   "title"
@@ -34,6 +34,7 @@ ActiveRecord::Schema.define(version: 20160305142830) do
     t.text     "email"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.text     "location"
   end
 
 end

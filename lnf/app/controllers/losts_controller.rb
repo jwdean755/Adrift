@@ -11,7 +11,7 @@ class LostsController < ApplicationController
    end
 
    def create
-      @lost = Lost.new(params.require(:lost).permit(:catagory, :description, :email))
+      @lost = Lost.new(params.require(:lost).permit(:catagory, :location, :description, :email))
 
       if params[:lost][:email].include? "@usna.edu"
          @lost.save

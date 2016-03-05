@@ -2,8 +2,13 @@
 
 <%= form_for :lost, url: losts_path do |f| %>
   <p>
-    <%= f.label :cagory %><br>
-    <%= f.text_field :catagory %>
+    <%= f.label :catagory %><br>
+    <%= f.select :catagory, ['phone', 'laptop', 'camera', 'clothing', 'bag', 'book', 'CAC', 'other'] %>
+  </p>
+
+  <p>
+    <%= f.label :location %><br>
+    <%= f.select :location, ['bancroft', 'michealson', 'chauvenet', 'luce', 'nimitz'] %>
   </p>
 
   <p>
