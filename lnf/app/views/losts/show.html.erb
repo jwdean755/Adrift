@@ -18,4 +18,19 @@
  <%= @lost.email %>
 </p>
 
+Potential Found Items:
+<table>
+  <tr>
+    <th>catagory</th>
+    <th>location</th>
+  </tr>
+
+  <% @founds_match.each do |found| %>
+    <tr>
+      <td><%= found.catagory %></td>
+      <td><%= found.location %></td>
+    </tr>
+  <% end %>
+</table>
+
 Go <a href = "/losts"> HERE </a> To View All
