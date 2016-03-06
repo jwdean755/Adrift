@@ -7,10 +7,10 @@ class LostsController < ApplicationController
       @lost = Lost.find(params[:id])
       @founds_match = Lost.match(@lost)
 
-      @founds_match.each do |found|
-         ActionMailer::Base.mail(to: "midnbeal18@gmail.com", subject: "potential lost item match", body: @lost[:description]).deliver
-      end
-      #ExampleMailer.send_email_to_lost_matches(@founds_match, @lost).deliver
+      #@founds_match.each do |found|
+         #ActionMailer::Base.mail(from: "stuffadrift@gmail.com", to: "midnbeal18@gmail.com", subject: "potential lost item match", body: @lost[:description]).deliver
+      #end
+      ExampleMailer.send_email_to_lost_matches(@founds_match, @lost)
    end
 
    def new
