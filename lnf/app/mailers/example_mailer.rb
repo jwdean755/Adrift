@@ -1,9 +1,9 @@
 class ExampleMailer < ActionMailer::Base
-  default from: "m180378@usna.edu"
+  default from: "stuffadrift@gmail.com"
 
-  def send_email_to_lost_matches(email, description)
-    @email = email
-    @description = description
-    mail(to: @email, subject: 'Lost Item Match')
+  def send_email_to_lost_matches(founds, lost)
+   founds.each do |found|
+      mail(to: "midnbeal18@gmail.com", subject: "potential lost item match", body: lost[:description]).deliver()
+    end
   end
 end
